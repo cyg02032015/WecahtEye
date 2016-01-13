@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80EEB451C46437C005DC75F /* wechat.gif in Resources */ = {isa = PBXBuildFile; fileRef = D80EEB441C46437C005DC75F /* wechat.gif */; };
 		D83BE9521C3CF1620088FDA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE9511C3CF1620088FDA0 /* AppDelegate.swift */; };
 		D83BE9541C3CF1620088FDA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE9531C3CF1620088FDA0 /* ViewController.swift */; };
 		D83BE9571C3CF1620088FDA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83BE9551C3CF1620088FDA0 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D80EEB441C46437C005DC75F /* wechat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wechat.gif; sourceTree = "<group>"; };
 		D83BE94E1C3CF1620088FDA0 /* BezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83BE9511C3CF1620088FDA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D83BE9531C3CF1620088FDA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		D83BE9451C3CF1610088FDA0 = {
 			isa = PBXGroup;
 			children = (
+				D80EEB441C46437C005DC75F /* wechat.gif */,
 				D83BE9501C3CF1620088FDA0 /* BezierPath */,
 				D83BE9651C3CF1620088FDA0 /* BezierPathTests */,
 				D83BE94F1C3CF1620088FDA0 /* Products */,
@@ -185,6 +188,7 @@
 			files = (
 				D83BE95C1C3CF1620088FDA0 /* LaunchScreen.storyboard in Resources */,
 				D83BE9591C3CF1620088FDA0 /* Assets.xcassets in Resources */,
+				D80EEB451C46437C005DC75F /* wechat.gif in Resources */,
 				D83BE9571C3CF1620088FDA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 				D83BE96D1C3CF1620088FDA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D83BE96E1C3CF1620088FDA0 /* Build configuration list for PBXNativeTarget "BezierPathTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +409,7 @@
 				D83BE9701C3CF1620088FDA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
