@@ -13,6 +13,8 @@
 		D83BE9591C3CF1620088FDA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83BE9581C3CF1620088FDA0 /* Assets.xcassets */; };
 		D83BE95C1C3CF1620088FDA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83BE95A1C3CF1620088FDA0 /* LaunchScreen.storyboard */; };
 		D83BE9671C3CF1620088FDA0 /* BezierPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE9661C3CF1620088FDA0 /* BezierPathTests.swift */; };
+		D83BE9721C3D0E1A0088FDA0 /* EyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE9711C3D0E1A0088FDA0 /* EyeViewController.swift */; };
+		D83BE9741C3D0F770088FDA0 /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BE9731C3D0F770088FDA0 /* EyeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D83BE9621C3CF1620088FDA0 /* BezierPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83BE9661C3CF1620088FDA0 /* BezierPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathTests.swift; sourceTree = "<group>"; };
 		D83BE9681C3CF1620088FDA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83BE9711C3D0E1A0088FDA0 /* EyeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeViewController.swift; sourceTree = "<group>"; };
+		D83BE9731C3D0F770088FDA0 /* EyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				D83BE9511C3CF1620088FDA0 /* AppDelegate.swift */,
 				D83BE9531C3CF1620088FDA0 /* ViewController.swift */,
+				D83BE9711C3D0E1A0088FDA0 /* EyeViewController.swift */,
+				D83BE9731C3D0F770088FDA0 /* EyeView.swift */,
 				D83BE9551C3CF1620088FDA0 /* Main.storyboard */,
 				D83BE9581C3CF1620088FDA0 /* Assets.xcassets */,
 				D83BE95A1C3CF1620088FDA0 /* LaunchScreen.storyboard */,
@@ -198,6 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83BE9541C3CF1620088FDA0 /* ViewController.swift in Sources */,
+				D83BE9721C3D0E1A0088FDA0 /* EyeViewController.swift in Sources */,
+				D83BE9741C3D0F770088FDA0 /* EyeView.swift in Sources */,
 				D83BE9521C3CF1620088FDA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
